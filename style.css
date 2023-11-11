@@ -1,12 +1,11 @@
 *{
   padding : 0;
   margin : 0;
-  font-family: "gg sans","Noto Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-family: 'Open Sans', sans-serif;
 }
 .header{
   height:80px;
   width: 100%;
-  /* background: #5865f2; */
   display: flex;
 }
 .left{
@@ -72,7 +71,7 @@ font-size: 16px;
   height: 352px;
   display: flex;
   position: absolute;
-  top: 26.4%;
+  top: 26.8%;
   left: -5.1%;
   padding: 20px;
 }
@@ -82,25 +81,65 @@ font-size: 16px;
   height: 360px;
   display: flex;
   position: absolute;
-  top: 25.8%;
-  left: 67.5%;
+  top: 26%;
+  left: 67.8%;
   padding: 20px;
 }
 .middle-part{
-  /* background: white; */
   z-index: 2;
   width: 780px;
   height: 190.69px;
   display: flex;
   position: absolute;
-  top: 20%;
-  left: 28%;
+  top: 16%;
+  left: 26%;
   padding: 20px;
   text-align: center;
 }
 .center-h1{
+  color: white;
   font-size: 56px;
   font-family: "ABC Ginto Nord","Noto Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
   font-weight: 600;
   text-transform: uppercase;
+}
+.center-p{
+  color: white;
+  font-size: 20px;
+  font-family: "ABC Ginto Nord","Noto Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+.windows-button{
+  padding: 16px 32px;
+  margin: 24px 24px 0px 0px;
+  color: black;
+  font-size: 18px;
+  font-weight: bold;
+  background-color: white;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+}
+.windows-button:hover{
+  color: blue;
+  box-shadow: 0 10px 10px rgba(10, 0, 0, 0.2);
+}
+.downloadsymbol{
+  margin: 0px 8px;
+  width: 18px;
+  height: 20px;
+}
+.browser-button{
+  padding: 16px 32px;
+  margin: 24px 0px 0px;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  background-color: black;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+}
+.browser-button:hover{
+  background-color: #23272a;
+  box-shadow: 0 10px 10px rgba(10, 0, 0, 0.2);
 }
