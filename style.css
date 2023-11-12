@@ -143,3 +143,42 @@ font-size: 16px;
   background-color: #23272a;
   box-shadow: 0 10px 10px rgba(10, 0, 0, 0.2);
 }
+.second-slide{
+  width: 100%;
+  height: 887.25px;
+  display: flex;
+  background: white;
+}
+.chat-image{
+  width: 678px;
+  height: 440px;
+  display: flex;
+  position: absolute;
+  top: 87%;
+  left: 18%;
+}
+.chat-text-bold{
+  width: 379.34px;
+  height: 647.25px;
+  display: flex;
+  position: absolute;
+  top: 70%;
+  left: 53%;
+}
+.second-slide-bold{
+  color: black;
+  font-size: 45px;
+  font-weight: bold;
+}
+.chat-text-simple{
+  width: 379.34px;
+  height: 162.5px;
+  display: flex;
+  position: absolute;
+  top: 128%;
+  left: 57.3%;
+}
+.second-slide-simple{
+  color: black;
+  font-size: 20px;
+}
