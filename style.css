@@ -371,23 +371,50 @@ font-size: 16px;
   height: 611px;
   display: flex;
   background: #23272a;
+  justify-content: center;
+  padding: 80px;
+}
+
+.navigation{
+  width: 1269px;
+  height: 396px;
+  display: flex;
+  padding: 40px;
+  align-items: stretch;
+}
+.first-container{
+  width: 280px;
+  height: 340px;
+  margin: 0px 0px 56px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
 }
 .language-selector{
-  margin: 20px;
+  margin: 24px 0px;
   color: black;
   display: flex;
-  position: absolute;
-  width: 133px;
-  height: 34px;
-  top: 458%;
-  left: 20%;
+  align-items: center;
+  justify-content: flex-start;
+  width: 280px;
+  height: 18px;
 }
 select {
   padding: 8px;
-  font-size: 14px;
+  font-size: 16px;
   width: 133px;
   height: 34px;
   background: transparent;
-  border: 0;
+  border: transparent;
   color: white;
+}
+.social{
+  width: 280px;
+  height: 24px;
+  margin: 24px 0px 0px;
+  display: flex;
+  justify-content: space-between;
+}
+.white-colored{
+  filter: grayscale(100%) brightness(0) invert(100%);
 }
