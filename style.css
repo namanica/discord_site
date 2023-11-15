@@ -341,7 +341,7 @@ font-size: 16px;
 .sparkling-button-style{
   padding: 16px 32px;
   margin: 24px 24px 0px 0px;
-  color: black;
+  color: white;
   font-size: 18px;
   font-weight: bold;
   background-color: #5865f2;
@@ -360,7 +360,7 @@ font-size: 16px;
 .sparkling-downloadsymbol{
   width: 18px;
   height: 20px;
-  color: white;
+  filter: grayscale(100%) brightness(0) invert(100%);
 }
 .sparkling-downloadsymbol-position{
   display: flex;
@@ -370,6 +370,7 @@ font-size: 16px;
   width: 100%;
   height: 611px;
   display: flex;
+  flex-direction: column;
   background: #23272a;
   justify-content: center;
   padding: 80px;
@@ -378,8 +379,13 @@ font-size: 16px;
   width: 1269px;
   height: 396px;
   display: flex;
-  padding: 40px;
+  padding: 0px 40px;
   align-items: stretch;
+  justify-content: center;
+  align-content: center;
+  position: absolute;
+  top: 460%;
+  left: 14%;
 }
 .first-container{
   width: 280px;
@@ -400,7 +406,7 @@ font-size: 16px;
 }
 select {
   padding: 8px;
-  font-size: 16px;
+  font-size: 14px;
   width: 133px;
   height: 34px;
   background: transparent;
@@ -416,4 +422,78 @@ select {
 }
 .white-colored{
   filter: grayscale(100%) brightness(0) invert(100%);
+}
+.spacer{
+  width: 80px;
+  height: 396px;
+}
+.container{
+  width: 180px;
+  height: 356px;
+  margin: 0px 0px 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.container-header{
+  width: 180px;
+  height: 24px;
+  font-size: 14px;
+  margin: 0px 0px 20px;
+  color: #5865f2;
+}
+.container-text{
+  width: 180px;
+  height: 24px;
+  margin: 8px 0px 0px;
+  font-size: 14px;
+  color: white;
+  cursor: pointer;
+}
+.container-text:hover{
+  text-decoration: underline;
+}
+.separator{
+  width: 1058px;
+  height: 1px;
+  background: #5865f2;
+  margin: 0px 0px 32px;
+  display: flex;
+  position: absolute;
+  top: 502%;
+  left: 21.5%;
+}
+.bottom{
+  width: 1061px;
+  height: 71px;
+  display: flex;
+  position: absolute;
+  top: 502%;
+  left: 21.5%;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+.white-discord-logo{
+  filter: grayscale(100%) brightness(0) invert(100%);
+  cursor: pointer;
+}
+.bottom-button-style{
+  padding: 7px 16px;
+  /* margin: 24px 24px 0px 0px; */
+  color: white;
+  font-size: 14px;
+  /* font-weight: bold; */
+  background-color: #5865f2;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  width: 138.31px;
+  height: 38px;
+}
+.bottom-button-style:hover{
+  background:  #7289da;
+  box-shadow: 0 10px 10px rgba(10, 0, 0, 0.2);
 }
