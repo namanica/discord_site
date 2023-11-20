@@ -5,6 +5,11 @@
   /* max-width: 1920px; */
 }
 
+/* .center-h1{
+  @media(max-width: 992px){
+    color: green;
+  }
+} */
 .header-wrapper {
   position: absolute;
   top: 0;
@@ -13,6 +18,7 @@
 }
 .header{
   height:80px;
+  justify-content: space-between;
   /* width: 2560px; */
   max-width: 1260px;
   margin: 0 auto;
@@ -29,6 +35,11 @@
   justify-content: center;
   align-items: center;
   cursor: pointer;
+  @media(max-width: 1024px){
+    justify-content: flex-start;
+    margin-left: 30px;
+    margin-right: 30px;
+  }
 }
 
 .middle{
@@ -37,6 +48,9 @@
   display: flex;
   justify-content: space-evenly;
   align-items: center;
+  @media(max-width: 1024px){
+    display: none;
+  }
 }
 
 .right{
@@ -45,6 +59,10 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  @media(max-width: 1024px){
+    justify-content: flex-end;
+    margin-right: 30px;
+  }
 }
 
 .login-button{
@@ -86,6 +104,7 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 50% 0%;
+  /* min-width: 320px; */
 }
 .left-part{
   /* width: 28%; */
@@ -119,8 +138,8 @@
   }
 }
 .middle-part{
-  width: 780px;
-  min-width: 626px;
+  width: 60%;
+  min-width: 320px;
   height: 100%;
   display: flex;
   margin: 0 auto;
@@ -131,9 +150,16 @@
   padding: 120px 40px;
   @media (max-width: 1024px) {
     align-items: start;
-    min-width: 60%;
-    width: 60%;
+    flex-direction: column;
+    justify-content: start;
+    text-align: start;
     padding: 80px 40px;
+    /* width: 0;
+    height: 0; */
+    /* min-width: 60%;
+    width: 60%;
+    padding: 80px 40px; */
+    /* justify-content: flex-start; */
   }
 }
 .center-h1{
@@ -142,13 +168,30 @@
   font-family: "ABC Ginto Nord","Noto Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
   font-weight: 600;
   text-transform: uppercase;
+  @media(max-width: 768px){
+    font-size: 38.35px;
+    font-size: clamp(24px,5vw,44px);
+    /* width: 0;
+    height: 0; */
+  }
 }
 .center-p{
   color: white;
-  font-size: 20px;
+  font-size: 16px;
   font-family: "ABC Ginto Nord","Noto Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
   line-height: 1.625;
   margin-top: 40px;
+  @media(max-width: 1024px){
+
+    /* box-sizing: border-box; */
+    /* display: flex;
+    transform: scale(); */
+    /* width: clamp(272px,2%,560px); */
+    /* font-size: 38.35px; */
+    /* font-size: clamp(16px,5vw,16px); */
+    /* text-align: start; */
+    /* flex-direction: column; */
+  }
 }
 .windows-button{
   padding: 16px 32px;
