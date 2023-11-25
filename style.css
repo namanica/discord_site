@@ -97,14 +97,15 @@
   background-position: 50% 0%;
 }
 
+
 .left-part{
+  width: 28%;
+  height: 100%;
   grid-area: left;
   display: flex;
   align-items: end;
   justify-content: flex-start;
-  position: relative;
-  margin: 0px 0px 0px -100px;
-  @media (max-width: 1024px) {
+  @media (max-width: 1600px) {
     display: none;
   }
 }
@@ -122,6 +123,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  align-content: center;
   justify-content: center;
   text-align: center;
   @media (max-width: 1024px) {
